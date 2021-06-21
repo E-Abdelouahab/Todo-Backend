@@ -1,4 +1,37 @@
-# Application todolist MERN stack
+# Application todolist :
+
+NPM install
+Npm Start
+
+
+## API Reference Category
+
+#### Get all Category
+
+```http
+  GET /api/category/all
+```
+
+#### Post:  create Category
+
+```http
+  POST /api/category/create
+```
+
+
+#### PUT: update Category
+
+```http
+  PUT: /api/category/update/:taskId
+```
+
+
+#### DELETE: delete Category
+
+```http
+  DELETE /api/category/delete/:taskId
+```
+
 
 ## API Reference Task
 
@@ -29,30 +62,3 @@
 ```
 
 
-## API Reference Category
-
-#### Get all Category
-
-```http
-  GET /api/category/all
-```
-
-#### Post:  create Category
-
-```http
-  POST /api/category/create
-```
-
-
-#### PUT: update Category
-
-```http
-  PUT: /api/category/update/:taskId
-```
-
-
-#### DELETE: delete Category
-
-```http
-  DELETE /api/category/delete/:taskId
-```
